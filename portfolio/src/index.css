@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', 'Inter', 'system-ui', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', 'Inter', 'system-ui', sans-serif;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes particleFloat {
+  0% { transform: translateY(0) translateZ(0); }
+  100% { transform: translateY(-100vh) translateZ(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
