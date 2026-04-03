@@ -136,7 +136,7 @@ function Contact() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white">Phone</h3>
-                    <a href="tel:+1234567890" className="hover:text-[#64FFDA]">+91 7903804789</a>
+                    <a href="tel:7903804789" className="hover:text-[#64FFDA]">7903804789</a>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white">Location</h3>
@@ -194,7 +194,7 @@ function Contact() {
                       },
                     })}
                     className="block w-full px-3 py-3 border bg-neutral-900 border-neutral-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-[#64FFDA]"
-                    placeholder="your.email@example.com"
+                    placeholder="vidyarthiakarsh@gmail.com"
                   />
                   {errors.email && <p className="text-red-400 text-sm mt-2">{errors.email.message}</p>}
                 </div>
